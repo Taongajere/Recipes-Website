@@ -12,6 +12,13 @@
 
 .nav-links {
    margin: 0;
+   padding: 0;
+}
+
+#links {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .nav-logo {
@@ -74,12 +81,11 @@ h3, p{
     padding-right: 200px;
     padding-top: 10px;
     padding-bottom: 40px;
-    background-color: rgb(207, 204, 204);
+    background-color: white;
 }
 
 .flex-recipe {
     display: flex;
-    background-color: rgb(207, 204, 204);
 }
 
 .flex-recipe div {
@@ -113,4 +119,28 @@ h3, p{
     padding: 5px 0;
 }
 
+/* quote */
+#quote {
+    background-color: rgb(197, 197, 197);
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
 
+#quote h3 {
+    font-family: Calibri;
+    font-size: 30px;
+    color: rgb(35, 35, 39);
+    padding: 0px;
+    margin: 0;
+}
+
+#quote p {
+    font-family: Calibri;
+    font-size: medium;
+    color: rgb(35, 35, 39);
+    padding: 0;
+    margin: 0;
+
+}
