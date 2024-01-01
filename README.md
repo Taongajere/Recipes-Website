@@ -1,2 +1,1 @@
-# git_try
-this is just a try for github and creating repos
+This is a tryout pure HTML landing page. 
