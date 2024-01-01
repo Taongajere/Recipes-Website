@@ -1,0 +1,24 @@
+
+
+/* navigation bar */
+.flex-box {
+    background-color: rgb(33, 33, 39);
+    display: flex;
+}
+
+.flex-box div {
+    flex: 1;
+}
+
+.nav-links {
+   margin: 0;
+}
+
+.nav-logo {
+    padding-left: 10px;
+}
+
+h3 {
+    color: beige;
+    font-family: Calibri;
+}
