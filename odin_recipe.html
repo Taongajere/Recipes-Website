@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles\styles.css">
+</head>
+<body>
+    <!-- the nav bar -->
+   <div class="flex-box nav">
+        <div>
+            <div class="nav-logo">
+                <h3>Logo</h3>
+            </div>
+        </div>
+        <div id="links">
+            <div class="flex-box nav-links">
+                <div><a href="#display"><h3>Display</h3></a></div>
+                <div><a href="#recipes"><h3>Recipes</h3></a></div>
+                <div><a href="#quote"><h3>quote of the day</h3></a></div>
+                <div><a href="#newsletter"><h3>newsletter</h3></a></div>
+            </div>
+        </div>
+   </div> 
+
+   <!-- Display -->
+   <div class="flex-box" id="display">
+        <div class="Display ">
+           <div>
+                <p id="display-text"><strong>"Recipes that will ultimately make you bite your tongue,"</strong></p>
+                <p id="display-quote">by various known professional chefs. From around the world, bringing you a delacacy ultimately winning your hearts</p>
+                <p id="display-paragraph">"Discover a comprehensive collection of recipes tailored to suit various occasions that cater to your family's culinary needs. Whether it's the festive fervor of holiday gatherings or the simplicity of a casual dinner, you'll find an array of recipes designed to elevate every dining experience. Explore a diverse selection ranging from celebratory feasts to quick and easy meals, ensuring that every moment at the table is memorable and satisfying for your loved ones."</p>
+           </div>
+        </div>
+        <div>
+            <div class="container">
+                <img src="img\Food.jpg" alt="Image here!">
+            </div>
+        </div>
+   </div>
+</body>
+
+<!-- recipe options -->
+<div id="recipes">
+    <div>
+        <h1>RECIPES</h1>
+        <p>Discover a comprehensive collection of all your health essentials, thoughtfully curated and conveniently available in a single place.</p>
+    </div>
+    <div class="flex-recipe">
+        <div>
+            <div class="container-recipe">
+                    <a href="recipes\chicken.html">
+                        <img src="img/chicken.jpg" alt="fried chicken">
+                        <h3>fried chicken</h3>
+                    </a>
+                    
+            </div>
+        </div>
+        <div>
+            <div class="container-recipe">
+                    <a href="recipes/vegan_stir_fry.html" >
+                        <img src="img/Vegan-Stir-Fry01030.jpg" alt="vegan Stir Fry">
+                        <h3>Vegan Stir Fry</h3>
+                    </a>
+            </div>
+        </div>
+        <div>
+            <div class="container-recipe">
+                    <a href="recipes/lemon chicken.html">
+                        <img src="img/lemon chicken.jpg" alt="Lemon Chicken">
+                        <h3>Lemon chicken</h3>
+                    </a>
+            </div>
+        </div>
+        <div>
+            <div class="container-recipe">
+                    <a href="recipes/Tummeric and Coconut.html">
+                        <img src="img/tummeric and coconut.jpg" alt="Tummeric and Coconut">
+                        <h3>Tummeric and coconut</h3>
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quote -->
+<div id="quote">
+    <h3>"Tell me what you eat, and I will tell you who you are." </h3>
+    <p>- Jean Anthelme Brillat-Savarin</p>
+</div>
+
+
+<!-- newsletter signup -->
+<div class="newsletter_container" id="newsletter">
+    <div class="newsletter_button_container">
+        <button type="submit" class="newsletter_button" id="newsletter_button">Sign Up</button>
+        <h4 class="newsletter_text">click to signup to our weekly newsletter for the best recipes</h4>
+    </div>
+</div>
+
+<!-- JS -->
+<script src="JS/odin_recipe.js"></script>
+
+</html>
