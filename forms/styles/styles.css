@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    margin-top: 100px;
 }
 
 .container {
@@ -10,7 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 600px;
-
 }
 
 .signup_form {
