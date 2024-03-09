@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles\styles.css">
+</head>
+<body>
+
+   <!-- form element -->
+   <!-- flex box for the devide -->
+   <div class="container"> 
+        <form action="" class="signup_form">
+            <!-- image -->
+            <img src="files/background image.jpg" alt="">
+            <!-- form -->
+            <div class="input_group">
+                <label for="name">Name:</label>
+                <input type="text" name="Name" id="name" placeholder="SpongeBob" required>
+            </div>
+            <div class="input_group">
+                <label for="email">email:</label>
+                <input type="email" email="email" id="email" placeholder="SpongeBob@gmail.com" required>
+            </div>
+            <div class="input_group">
+                <label for="phone number">Phone Number:</label>
+                <input type="tel" phone number="phone number" id="phone number" placeholder="0987654321" required>
+            </div>
+            <div class="input_group">
+                <label for="Category">Category:</label>
+                <p>what type of recipes do you want to recieve</p>
+                <select id="Category" name="Category">
+                    <option value="vegan">vegan</option>
+                    <option value="meaty">meaty</option>
+                    <option value="fast foods">fast foods</option>
+                </select>
+            </div>
+            <!-- terms and conditions -->
+            <div class="input_group checkbox">
+                <label for="agree">I agree to the <a href="files/terms and conditions.html">terms and conditions</a></label>
+                <input type="checkbox" id="agree" name="agree" required>
+            </div>
+            <!-- submit button -->
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+   </div>
+</html>
