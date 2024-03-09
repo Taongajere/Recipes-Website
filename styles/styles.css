@@ -144,3 +144,33 @@ h3, p{
     margin: 0;
 
 }
+
+/* news letter styles */
+.newsletter_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(15, 15, 15);
+}
+
+.newsletter_button_container{
+    display: flex;
+    align-items: center;
+}
+
+.newsletter_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.newsletter_text {
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+}
